@@ -19,14 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Template_site # the title of your site should go here
+title: Sea turtles # the title of your site should go here
 email: your-email@example.com
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://template_site.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sea-turtle.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
 
@@ -45,13 +45,6 @@ privacy:
   contactEmail: info@your-domain.org
   helpdeskEmail: helpdesk@your-domain.org
 
-# The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
-siteMeasurements:
-  enable: false # When enabled there will be a popup asking the user for their consent. If they accept then the function "attachMeasurements" will be called. You can overwrite this function by adding a file `/_includes/js/measure.js` and replace the function.
-  GA_ID: "G-XXXXXXXX" # Your Google analytics ID. Sometimes they start with UA-XXXXX-X other times with G-XXXXXXXX depending on how you set it up
-  termsVersion: "2021-07-06" # A version number for your terms. If you change this, then the users will see the popup again asking them to confirm/reject anew.
-
-
 algae:
   rootLang: en
   # latestPostLimit: 2
@@ -61,9 +54,9 @@ algae:
   style:
     # square: false               # Should corners be square or rounded
     colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+      primary: "#1fb53a"          # Primary color of your brand. Use HEX code. Used for buttons and links
+      links: "#0099b5"          # What color should links have. Use a HEX code. DEfault is primary color. 
+    coloredHeadlineLinks: true   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
@@ -106,3 +99,34 @@ defaults:
     values:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+  # Spanish
+  - scope:
+      path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es".
+    values:
+      lang: es
+  - scope:
+      path: "_posts/es" # our subfolder in posts for spanish translation of news items
+    values:
+      layout: "post"
+      permalink: "/es/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
+      lang: es # And have the default language in that folder be spanish
+  - scope:
+      path: "fr/" # For anything in the "fr" folder, the default language is set to French (fr).
+    values:
+      lang: fr
+  - scope:
+      path: "_posts/fr" # Our subfolder in posts for French translation of news items
+    values:
+      layout: "post"
+      permalink: "/fr/post/:year/:slug/"   # Use /fr/post/yyyy/{filename}/ as permalink for all posts in French
+      lang: fr # And have the default language in that folder be French
+  - scope:
+      path: "pt/" # For anything in the "pt" folder, the default language is set to Portuguese (pt).
+    values:
+      lang: pt
+  - scope:
+      path: "_posts/pt" # Our subfolder in posts for Portuguese translation of news items
+    values:
+      layout: "post"
+      permalink: "/pt/post/:year/:slug/"   # Use /pt/post/yyyy/{filename}/ as permalink for all posts in Portuguese
+      lang: pt # And have the default language in that folder be Portuguese

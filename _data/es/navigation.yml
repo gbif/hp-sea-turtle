@@ -1,0 +1,28 @@
+- text: Acerca de
+  href: /es/about
+# - text: Ocurrencias
+#   href: /es/occurrence/search
+- text: Observaciones de Especies
+  href: /es/occurrence/search
+- text: Páginas de Ejemplo
+  menu: # Menú desplegable (solo un nivel)
+  - text: Simple
+    href: /es/example-pages/simple
+  - text: Complejo
+    href: /es/example-pages/complex
+- text: Enlaces
+  menu: # Menú desplegable (solo un nivel)
+  - text: Demostración del tema base
+    href: https://hp-base-theme.gbif-staging.org/
+  - text: Otros sitios que utilizan el tema
+    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
+  - text: "---" # Separador para separar bloques de elementos de menú (al menos 3 "-")
+  - text: "Documentación" # Título para el bloque de elementos de menú
+  - text: Documentación de Jekyll
+    href: https://jekyllrb.com/docs/pages/
+  - text: Tutorial de Markdown
+    href: https://guides.github.com/features/mastering-markdown/
+  - text: Tutorial de YAML
+    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+- text: Noticias
+  href: /es/posts/

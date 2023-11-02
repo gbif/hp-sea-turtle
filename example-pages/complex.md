@@ -2,7 +2,7 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Complex page
 description: This layout requires a bit more fiddling as it is stiching together various blocks that all can be customized.
-background: /assets/images/placeholders/moss.jpg
+background: /assets/images/placeholders/1800.png
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 70vh

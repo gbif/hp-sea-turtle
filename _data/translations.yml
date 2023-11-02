@@ -1,4 +1,18 @@
+# Someone who actually speak these languages should check that it is correct
 relatedPosts:
   en: "Related Posts"
+  es: "Artículos relacionados"
+  pt: "Artigos relacionados"
+  fr: "Articles connexes"
+
 differentLanguage:
   en: "This page is available in following languages"
+  es: "Esta página está disponible en los siguientes idiomas"
+  pt: "Esta página está disponível nos seguintes idiomas"
+  fr: "Cette page est disponible dans les langues suivantes"
+
+tocTitle:
+  en: "On this page"
+  es: "En esta página"
+  pt: "Nesta página"
+  fr: "Sur cette page"

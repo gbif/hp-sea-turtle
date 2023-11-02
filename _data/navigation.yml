@@ -4,14 +4,8 @@
   href: /about
 # - text: Occurrences
 #   href: /occurrence/search
-- text: Data
-  menu: 
-  - text: Occurrences
-    href: /occurrence/search
-  - text: Institutions
-    href: /institution/search
-  - text: Collections
-    href: /collection/search
+- text: Species observations
+  href: /occurrence/search
 - text: Example pages
   menu: # Dropdown menu (one level deep only)
   - text: Simple
@@ -33,4 +27,4 @@
   - text: YAML tutorial
     href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
 - text: News
-  href: /news/
+  href: /posts/

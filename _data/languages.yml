@@ -1,3 +1,16 @@
 en:
   label: English
   icon:  # optional
+  archive_permalink: /posts/
+
+fr:
+  label: Français
+  archive_permalink: /fr/posts/
+
+pt:
+  label: Português
+  archive_permalink: /pt/posts/
+
+es:
+  label: Español
+  archive_permalink: /es/posts/
