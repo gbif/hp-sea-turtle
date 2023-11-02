@@ -11,6 +11,6 @@
 # imageLicense: [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)
 
 placeholder1800:
-  src: /assets/images/placeholders/1800.png
+  src: /assets/images/placeholders/original.jpg
   caption: |
-    [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/123) from some publisher
+    [Dermochelys coriacea (Vandelli, 1761)](https://www.gbif.org/occurrence/3994323728) observed in Gabon by frasergear (licensed under http://creativecommons.org/licenses/by-nc/4.0/)
