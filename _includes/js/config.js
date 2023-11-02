@@ -29,7 +29,7 @@ var siteConfig = {
         value: "POLYGON((-0.18665 40.83074,-9.2998 38.13469,-20.00752 29.403,-22.16137 18.44407,-20.41689 7.80871,-11.47535 -0.69968,2.52026 -0.30892,5.40963 -19.69613,16.86683 -40.85831,31.92463 -40.82522,49.00448 -32.94433,60.49218 -21.50211,58.19205 5.80734,53.79236 14.91222,43.74521 18.18718,36.05452 33.9283,17.40904 40.48391,4.69168 41.57712,-0.18665 40.83074))"
       }
     ] }, 
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
+    occurrenceSearchTabs: ['GALLERY', 'TABLE', 'MAP'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   }
 };
